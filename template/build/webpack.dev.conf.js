@@ -113,9 +113,7 @@ module.exports = {
           {
             loader: 'vcp-markdown-loader',
             options: {
-              platform: 'h5',
-              file: '[name]',
-              mun: () => console.log(mun++)
+              platform: <$=platform$>
             }
           }
         ]
