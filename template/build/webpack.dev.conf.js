@@ -112,7 +112,7 @@ module.exports = {
           {
             loader: 'vcp-markdown-loader',
             options: {
-              platform: <$=platform$>
+              platform: '<$=platform$>'
             }
           }
         ]
