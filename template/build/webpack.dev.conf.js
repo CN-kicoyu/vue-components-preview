@@ -3,7 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 const babelConfig = require('./getBabelConfig')(false)
-let mun = 1
 
 module.exports = {
   mode: 'development',
