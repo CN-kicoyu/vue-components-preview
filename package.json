@@ -1,0 +1,15 @@
+{
+  "name": "vue-components-preview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open --hot --config build/webpack.dev.conf.js",
+    "bootstrap": "npm run build:entry && webpack-dev-server --open --hot --config build/webpack.dev.conf.js",
+    "build:entry": "npm run build:demoComponent & node build/buildEntry.js",
+    "build:demoComponent": "node build/getDemos.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
